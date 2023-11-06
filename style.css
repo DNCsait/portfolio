@@ -60,20 +60,6 @@ h1 {
     text-decoration-style: solid;
   }
 
-  .wrapper {
-    width: 20%;
-    padding: 0 2rem;
-  }
-  .polaroid {
-    background: #fff;
-    padding: 1rem;
-    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
-    
-  }
-  figcaption {
-    font-style: italic;
-  }
-
   h3 {
         border: .5px dashed;
         border-radius: 3px;
