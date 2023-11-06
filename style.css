@@ -61,3 +61,7 @@ p {
     border: 3px solid black;
     text-align: left;
   }
+
+li a:hover{
+  color:#c2b3ff;
+}
