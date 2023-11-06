@@ -11,6 +11,7 @@ h1 {
     font-size: 0.85cm;
     color: rgb(0, 0, 0);
     margin-bottom: .3em;
+    letter-spacing: 1.5px;
   }
   h3 {
     font-variant: small-caps;
@@ -29,7 +30,7 @@ h1 {
   
   table {
     table-layout: fixed;
-    width: 600px;
+    width: 500px;
     border: 2px solid rgb(0, 0, 0);
   }
   
