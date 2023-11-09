@@ -5,42 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
+    
     
     <title>Dana Collicutt</title>
 </head>
 <body>
     <h1>DANA COLLICUTT</h1>
     <figure>
-        <img src="./images/portfolio-identity.jpg" height="200" width="100" alt="Portfolio Identity Logo" title="Dana Collicutt">
+        <img src="./images/portfolio.identity.png" height="130" width="65" class="center" alt="Portfolio Identity Logo" title="Dana Collicutt Brand Logo">
     </figure>
- <ol>
-    <li><a href="#aboutme">About Me</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#mydesigns">My Designs</a></li>
-    <li><a href="#myhobbies&dislikes">My Hobbies &amp; Dislikes</a></li>
-    <li><a href="#goals">Goals</a></li>
-    <li><a href="#contactinformation">Contact Information</a></li>
- </ol>
+ <ul id="navigation">
+    <li><a class="about" href="#aboutme">About Me</a></li>
+    <li><a class="designs" href="#mydesigns">My Designs</a></li>
+    <li><a class="contact" href="#contactinformation">Contact Me</a></li>
+ </ul>
+<br>
+<br>
+<br>
+<br>
+ <ul id="Misc">
+    <li><a class="education" href="#education">Education</a></li>
+    <li><a class="hobbies" href="#myhobbies&dislikes">My Hobbies &amp; Dislikes</a></li>
+    <li><a class="goals" href="#goals">Goals</a></li>
+ </ul>
+
+<br>
+
 <hr>
  <section id="aboutme">
     <h2>ABOUT ME</h2>
     <p>My name is Dana and I am 32 years old. I am currently a student in the Interactive Design Diploma Program for Graphic Design at SAIT.<br>
-        Some fun things about me is that I have one dog, a Husky mix, named Opie. He is a handful but keeps life entertaining and fun.<br> 
-        I also have a side business where I make and sell soaps (and handmade jewelry), called "Opie Soaps".<br></p>
-        <aside>
-            <h4>(Here is a sneak peek at my new and improved logo for "Opie Soaps")</h4>
-        <figure>
-            <img src="./images/Opie_Soaps_Logo.jpg" height="200" width="210" alt="Opie Soaps text in circular logo" title="Opie Soaps Logo 2023">
-            <figcaption style="font-style: italic;">Opie Soaps Logo 2023</figcaption>
-        </figure>  
-        </aside>
+        Some fun things about me is that I have one dog, a Husky mix, named Opie. He is a handful but keeps life entertaining and fun.<br>     
+        I also have a side business where I make and sell soaps (and handmade jewelry), called <span style="font-variant: small-caps; font-size: larger;">"Opie Soaps"</span>.<br></p>
+            <aside class="logo">
+        <h4>Here is a sneak peek at my new and 
+            <br>improved logo for <span style="font-variant: small-caps; font-size: larger;">"Opie Soaps"</span></h4>
+    <figure>
+        <img src="./images/Opie_Soaps_Logo.jpg" class="oslogo" height="200" width="210" alt="Opie Soaps text in circular logo" title="Opie Soaps Logo 2023">
+        <figcaption style="font-style: italic;">Opie Soaps Logo 2023</figcaption>
+    </figure>  
+    </aside>
     <p>One of my favourite quotes, and an excellent mantra to live by, is <i>"Failure is not an option. It is essential."</i><br>Funnily enough, I heard this quote on the first day of orientation at SAIT.<br>
     Ever since then I have been continually reminding myself to embrace both success and failure.<br></p>
-    <p>When I am not at school or doing homework, I enjoy reading and watching TV. Here is the Amazon link for my favourite book: <a href="https://www.amazon.ca/Pride-Prejudice-Jane-Austen/dp/1398812188/ref=sr_1_4?crid=2DN6BLW09HQ8T&keywords=pride+and+prejudice&qid=1698547727&s=books&sprefix=pride+and+prejudice%2Cstripbooks%2C104&sr=1-4">Pride &amp; Prejudice.</a> 
-    <br>Also, here is the link to my favourite TV show: <a href="https://www.imdb.com/title/tt1124373/">Sons of Anarchy.</a> You should definitely check them both out! <br>
+    <p>When I am not at school or doing homework, I enjoy reading and watching TV. 
+        <br>Here is the Amazon link for my favourite book: <a href="https://www.amazon.ca/Pride-Prejudice-Jane-Austen/dp/1398812188/ref=sr_1_4?crid=2DN6BLW09HQ8T&keywords=pride+and+prejudice&qid=1698547727&s=books&sprefix=pride+and+prejudice%2Cstripbooks%2C104&sr=1-4"><span style="font-variant: small-caps;">Pride &amp; Prejudice.</span></a> 
+    <br>Also, here is the link to my favourite TV show: <a href="https://www.imdb.com/title/tt1124373/"><span style="font-variant: small-caps;">Sons of Anarchy.</span></a> You should definitely check them both out! <br>
     Don't get me started on my favourite movies. There are way too many! Well, actually...no, get me started!</p>
     <aside>
-        <h4>Here's a quick list of my favourites:</h4>
+        <h5>Here's a quick list of my favourites:</h5>
     <ul>
         <li>Forest Gump</li>
         <li>Armageddon</li>
@@ -59,37 +74,46 @@
             <th>Institution</th>
         </tr>
         <tr>
-            <td>2000-2009</td>
-            <td>Strathcona Tweedsmuir School</td>
+            <td class="odd">2000-2009</td>
+            <td class="odd">Strathcona Tweedsmuir School</td>
         </tr>
         <tr>
-            <td>2009-2010</td>
-            <td>University of Saskatchewan</td>
+            <td class="even">2009-2010</td>
+            <td class="even">University of Saskatchewan</td>
         </tr>
         <tr>
-            <td>2010-2011</td>
-            <td>SAIT</td>
+            <td class="odd">2010-2011</td>
+            <td class="odd">SAIT</td>
         </tr>
         <tr>
-            <td>2023-Present</td>
-            <td>SAIT</td>
+            <td class="even">2023-Present</td>
+            <td class="even">SAIT</td>
         </tr>
     </table>
+    <br>
     <hr>
 </section>
  <section id="mydesigns">
     <h2>MY DESIGNS</h2>
     <p>I am still just in my first semester of the Graphic Design program here at SAIT, but I wanted to share some of the work I have made so far. Enjoy!</p>
-
-<figure>
-        <img src="./images/desert-goddess.jpg" height="460" width="304" alt="Woman Portrait with Freeform Waves & Geometric Shapes" title="Desert Goddess">
-        <figcaption style="font-style: italic;">Desert Goddess</figcaption>
-</figure>
-<figure>
-        <img src="./images/Soap_Box_Label_Art.jpg" height="460" width="290" alt="Geometric Line Art" title="Soap Box Label">
-        <figcaption style="font-style: italic;">Soap Box Label</figcaption>
-</figure>
+    <div class="container">
+        <div class="column">
+        <figure>
+          <img src="./images/desert-goddess.jpg" height="460" width="304" alt="Woman Portrait with Freeform Waves & Geometric Shapes" title="Desert Goddess">
+          <figcaption style="font-style: italic;">Desert Goddess</figcaption> 
+        </figure>
+        </div>
+        <div class="column">
+        <figure>
+          <img src="./images/Soap_Box_Label_Art.jpg" height="460" width="290" alt="Geometric Line Art" title="Soap Box Label">
+          <figcaption style="font-style: italic;">Soap Box Label</figcaption>
+        </figure>    
+        </div>
+     </div>
+    
  </section>
+ 
+ <div class="myhobbies">
 <hr>
 <section id="myhobbies&dislikes">
     <h2>MY HOBBIES &amp; DISLIKES</h2>
@@ -100,54 +124,72 @@
             <th>Dislikes</th>
         </tr>
         <tr>
-            <td>Soap making</td>
-            <td>Unloading the dishwasher</td>
+            <td class="odd">Soap making</td>
+            <td class="odd">Unloading the dishwasher</td>
         </tr>
         <tr>
-            <td>Walking my dog</td>
-            <td>Spiders</td>
+            <td class="even">Walking my dog</td>
+            <td class="even">Spiders</td>
         </tr>
         <tr>
-            <td>Graphic design</td>
-            <td>Red onions</td>
+            <td class="odd">Graphic design</td>
+            <td class="odd">Red onions</td>
         </tr>
         <tr>
-            <td>Tea and coffee</td>
-            <td>Starbucks coffee</td>
+            <td class="even">Tea and coffee</td>
+            <td class="even">Starbucks coffee</td>
         </tr>
         <tr>
-            <td>DIY crafts</td>
-            <td>Poor grammar</td>
+            <td class="odd">DIY crafts</td>
+            <td class="odd">Poor grammar</td>
         </tr>
 
     </table>
-    <hr>
-</section>
+    <br>
+    </section>
+</div>
 
+<hr>
 <section id="goals">
     <h2>GOALS</h2>
     <h3>Short-Term Goals</h3>
-    <ul>
+    <ol>
         <li>Create a Design Portfolio</li>
-        <li>Finalize and post my "Opie Soaps" logo to social media</li>
+        <li>Post my new <span style="font-variant: small-caps; font-size: larger;">"Opie Soaps"</span> logo to social media</li>
         <li>Create my own website</li>
-        <li>Build a website for "Opie Soaps"</li>
-    </ul>
+        <li>Build a website for <span style="font-variant: small-caps; font-size: larger;">"Opie Soaps"</span></li>
+    </ol>
     <h3>Long-Term Goals</h3>
-    <ul>
+
+    
+    <ol>
         <li>Graduate from SAIT in 2025</li>
-        <li>Build my "Opie Soaps" business</li>
+        <li>Build my <span style="font-variant: small-caps; font-size: larger;">"Opie Soaps"</span> business</li>
         <li>Work for a graphic design company</li>
         <li>Eventually, start my own graphic design business</li>
-    </ul> 
-    <hr>   
+    </ol> 
+    <hr> 
+      
 </section>
+
 <section id="contactinformation">
     <h2>CONTACT INFORMATION</h2>
     <p>Feel free to contact me via email: <br><a href="mailto:dana@FakeEmail.com">dana@FakeEmail.com</a></p>
-    <p>(Check out my social media for more of my graphic<br>designs, as well as my "Opie Soaps" creations!)</p>
+    <p>(Check out my social media for more of my graphic designs, <br>as well as my <span style="font-variant: small-caps; font-size: larger;">"Opie Soaps"</span> creations!)</p>
 </section>
+ 
 <!--Opie Loves You-->
+
+<div class="card"> 
+    <img src="./images/opie.jpg" alt="Photo of Opie, the dog" title="Opie, the Dog"
+            width="240"> 
+    <div class="card-txt"> 
+        <p><span style="font-variant: small-caps; font-size: 1.6em;">-Opie-</span><br>
+        <span style="font-variant: small-caps; font-size: 1em;">The Man Behind the Brand</span></p>
+    </div> 
+</div> 
+<br>
 <footer>&copy; Dana Collicutt 2023</footer>
+
 </body>
 </html>

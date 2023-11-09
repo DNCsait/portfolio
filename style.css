@@ -1,51 +1,126 @@
+body {
+  font-size: 1.04em;
+  background-color:rgba(178, 138, 120, .1);
+  }
+
+  /*I chose a more subdued background color, and lowered the opacity.
+  I am no the biggest fan of color, so I decided to take the light
+  pink/dusty rose color from my logo and use that as my background.
+  I wanted to keep that unity throughout my page. It doesn't totally
+  look like I have a background color, but when you scroll down to look 
+  at my design photos, specifically the ones with white backgrounds,
+  you can tell that there really is a background color. */
+
 h1 {
-    text-align: left;
-    font-family: "Bodoni 72";
+    text-align: center;
+    font-family: "Bodoni Moda";
     font-size: 3em;
+    font-weight: bold;
     color: black;
     margin-bottom: .3em;
   }
+
+  /*I used the google font, "Bodoni Moda", because it is
+  still eye-catching but also goes along with my h2 heading
+  text, which is just your basic Bodoni 72. This is the font that
+  I use in my Opie Soaps logo, and wanted to create some 
+  unity throughout my site. */
+
+  /*The following is referring to the Portfolio Identity logo
+  at the top of the page between my name and the navigation.*/
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*This is the end of the Portfolio Identity logo formatting.*/
+
   h2 {
     text-align: left;
-    font-family: "Bodoni 72";
+    font-family: "Bodoni Moda";
     font-size: 2em;
+    font-weight: 1000;
     color:black;
     margin-bottom: .3em;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.1px;
     text-decoration-line: underline;
     text-decoration-style: solid;
   }
+
+
   h3 {
     font-variant: small-caps;
-    font-size: 1.3em;
-    color: black;
-    border: .5px dashed;
+    font-size: 1.4em;
+    border-color: #331313;
+    background-color: white;
+    border: 1.5px solid;
     border-radius: 3px;
     display: inline-block;
     margin: 5px;
     padding: 5px; 
+    letter-spacing: 0.6px;
   }
 
-body {
-font-size: 1em;
-}
+  h5 {
+    font-size: 1.2em;
+    font-style: oblique;
+    margin-bottom: 0px;
+  }
+
+  /* The heading 5 is for the second aside on my page 
+  (my list of favourite movies). I chose oblique instead
+  of italicized font because I like the style better 
+  in this case.*/
 
 p {
-  font-size: 1em;
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
-  ol {
-    font-family: "Bodoni 72";
-    font-size: 1.5em;
-    font-variant: small-caps;
-  }
-  th {
-    font-variant: small-caps;
-    font-size: 1.3em;
-  }
+/*Wanted to experiment wiht line height. I think this
+is a perfect amount for the paragraph text: not too 
+much, making it look too spaced out, but not too little,
+either, making it look too scrunched and compact. */
+
+ /*The following section is for the aside (the entire aside) for 
+ the "Opie Soaps" logo in the About Me section.*/
+  .logo {
+    background-color: white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #331313;
+    border-radius: 3px;
+    float: left;
+    height: 315px;
+    width: 280px;
+    padding: 1px;
+    margin-left: 1px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-style: italic;
+    text-align: center;
+    position:relative;
+    top: -20px;
+    }
+  /*This section is only for the logo itself within the aside, to
+  position it a little more centered within the box/border.*/
+    .oslogo{
+      margin-left: -11px;
+      margin-top: -8px;
+    }
+  /*This is the end of this section (for the "Opie Soaps" aside and logo.*/
   
+  /*So that the "My Hobbies & Dislikes" section doesn't wrap about my designs, 
+  I used this "clear" feature (below).*/
+  .myhobbies {
+    clear: left;
+  }
+
+
   table {
     table-layout: fixed;
-    width: 500px;
+    width: 580px;
     border: 2px solid black;
   }
   
@@ -53,15 +128,182 @@ p {
     border: 1px solid rgb(0, 0, 0);
     overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    font-size: 1.2em;
   }
   th {
-    background-color: black;
+    background-color: rgba(51, 19, 19, 1);
     color: white;
     border: 3px solid black;
     text-align: left;
+    font-variant: small-caps;
+    font-size: 1.4em;
+    letter-spacing: .6px;
   }
 
-li a:hover{
-  color:#c2b3ff;
+    /* I chose this particular background color for
+    the table header (as well as the "even" classes to 
+    correspond with the colors in my Opie Soaps logo. I 
+    also noticed that without letter-spacing, the heading
+    looked very crowded.*/
+
+  /*This is so that the two design images (in "My Designs" section)
+  can fit side by side and without running into the "Hobbies & Dislikes" 
+  section.*/
+.column {
+  float: left;
+  width: 300px;
+  padding: 20px;
+  white-space: nowrap;
+  padding-left: 10px;
 }
+
+/*This is the end of this section.*/
+
+a:hover{
+  border: 2.5px solid rgba(178, 138, 120, .2)
+} 
+
+  /*This is for the tables so that the even and odd rows have
+  separate background colors.*/
+  .even {
+    background-color: rgba(51, 19, 19, 0.2);
+    }
+  .odd {
+    background-color: white;
+  }
+  /*This is the end of this section.*/
+
+  /*This is for the Short Term and Long Term goals lists. I wanted to
+  make the even items one color, and the odd items another color, WITHOUT
+  the use of an "even" class in HTML.*/
+  li:nth-child(even) {
+      color: #6f1f02;
+      font-size: 1.2em;
+      line-height: 1.2em;
+  }
+  li:nth-child(odd) {
+    color: #000000;
+    font-size: 1.2em;
+    line-height: 1.2em;
+  /*This is the end of this section.*/
+}
+  /* Sidenote: I made the even items in all unordered lists this particular 
+  color (#6f1f02) because it stands out a little better than the 
+  color I actually wanted to use (dark maroon: #331313) because it 
+  is within all of my designs/logos, and the background color in my 
+  table headings and my navigation bar. However, it was hard to tell 
+  the difference between that dark maroon and the black font of the 
+  odd items, so I went this route instead. I may go back and change 
+  it later, depending on how badly I want that maroon color.*/
+  
+  /*This section is for the "Polaroid Picture" of Opie.*/
+  .card { 
+    width: 240px;
+    height: 280px; 
+    background-color: white; 
+    margin-right: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 16px solid;
+    border-color: white; 
+    box-shadow: 5px 5px 5px;
+    box-shadow: rgba(178, 138, 120, 0.1);
+    float: bottom;
+} 
+
+.card-txt { 
+    text-align: center; 
+    padding: .05px; 
+} 
+
+/*This is the end of the "Polaroid Picture" section. I am very
+happy with this effect that I found online in a CSS tutorial.
+I thought this was the perfect opportunity to incorporate
+it in to my page (to show off Opie - "the man behind 
+the brand" of "Opie Soaps").*/
+
+/*This section is for the HORIZONTAL navigation bar at 
+the top of the page.*/
+
+#navigation {
+  margin:0 auto;
+  list-style:none;
+  width: 80%;
+  }
+
+  #navigation li {
+  float: inline-end;
+  width: 32%;
+  }
+
+  #navigation a {
+  color: #ffffff;
+  display:block;
+  text-align:center;
+  text-transform:uppercase;
+  text-decoration:none; 
+  font-family: "Bodoni Moda";
+  font-size: .9em;
+  font-weight: 1000;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+  .about, .designs, .contact{
+    border-color: #331313;
+    background-color: #331313;
+    border: 1.5px solid;
+  }
+
+  /*This section is for the VERTICAL navigation bar at 
+  the top of the page.*/
+  #Misc {
+    margin:0 auto;
+    list-style:none;
+    width: max-content;
+    }
+  
+    #Misc a {
+    color: #ffffff;
+    display:block;
+    text-align:center;
+    text-transform:uppercase;
+    text-decoration:none; 
+    font-family: "Bodoni Moda";
+    font-size: 0.9em;
+    font-weight: 1000;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 1px;
+    border-radius: 3px;
+    }
+    
+  #Misc{
+    list-style: none;
+    text-align: center;
+  }
+
+  .education, .hobbies, .goals{
+    border-color: #331313;
+    background-color: #331313;
+    border: 1.5px solid;
+  }
+
+  /*This is the end of that navigation section as a whole.
+  On the rubric for this assignment, it was mentioned to experiment
+  with both vertical and horizontal navigation links. I wanted to 
+  try both at the top of the page. It may feel a little crowded, but
+  overall I like it. It looks pretty cool.*/
+  
+  footer{
+    white-space: nowrap; 
+  }
