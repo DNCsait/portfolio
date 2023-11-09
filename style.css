@@ -233,7 +233,7 @@ the top of the page.*/
   }
 
   #navigation li {
-  float: inline-end;
+  float: left;
   width: 32%;
   }
 
