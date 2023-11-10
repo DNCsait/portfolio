@@ -226,13 +226,12 @@ I thought this was the perfect opportunity to incorporate
 it in to my page (to show off Opie - "the man behind 
 the brand" of "Opie Soaps").*/
 
-/*This section is for the HORIZONTAL navigation bar at 
+/*This section is for the HORIZONTAL navigation links at 
 the top of the page.*/
 
 #navigation {
   margin:0 auto;
   list-style:none;
-  width: 80%;
   }
 
   #navigation li {
@@ -242,6 +241,9 @@ the top of the page.*/
 
   #navigation a {
   color: #ffffff;
+  background-color: #331313;
+  border: 1.5px solid;
+  border-radius: 3px;
   display:block;
   text-align:center;
   text-transform:uppercase;
@@ -260,15 +262,8 @@ the top of the page.*/
   text-overflow: ellipsis;
   }
 
-  .about, .designs, .contact{
-    border-color: #331313;
-    background-color: #331313;
-    border: 1.5px solid;
-  }
-
-
-  /*This section is for the VERTICAL navigation bar at 
-  the top of the page.*/
+  /*This section is for the VERTICAL navigation links at 
+  the top of the page, under the HORIZONTAL links.*/
   #Misc {
     margin:0 auto;
     list-style:none;
@@ -288,7 +283,7 @@ the top of the page.*/
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-right: 30px;
+    margin-right: 43px;
     margin-left: 1px;
     border-radius: 3px;
     }
@@ -302,6 +297,12 @@ the top of the page.*/
     border-color: #331313;
     background-color: #331313;
     border: 1.5px solid;
+    float: none;
+    align-items: center;
+  }
+
+  .designs {
+    align-items: center;
   }
 
   /*This is the end of that navigation section as a whole.
