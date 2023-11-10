@@ -11,6 +11,9 @@ body {
   at my design photos, specifically the ones with white backgrounds,
   you can tell that there really is a background color. */
 
+  /*I made sure that body font is no smaller than 12px (.75em) to follow 
+  the WCAG guidelines.*/
+
 h1 {
     text-align: center;
     font-family: "Bodoni Moda";
@@ -244,7 +247,7 @@ the top of the page.*/
   text-transform:uppercase;
   text-decoration:none; 
   font-family: "Bodoni Moda";
-  font-size: .9em;
+  font-size: 1em;
   font-weight: 1000;
   padding-left: 12px;
   padding-right: 12px;
@@ -253,6 +256,8 @@ the top of the page.*/
   border-radius: 3px;
   margin-left: 10px;
   margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   }
 
   .about, .designs, .contact{
@@ -276,7 +281,7 @@ the top of the page.*/
     text-transform:uppercase;
     text-decoration:none; 
     font-family: "Bodoni Moda";
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 1000;
     padding-left: 50px;
     padding-right: 50px;
