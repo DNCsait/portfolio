@@ -14,7 +14,7 @@ body {
   /*I made sure that body font is no smaller than 12px (.75em) to follow 
   the WCAG guidelines.*/
 
-h1 {
+  h1 {
     text-align: center;
     font-family: "Bodoni Moda";
     font-size: 3em;
@@ -29,6 +29,7 @@ h1 {
   I use in my Opie Soaps logo, and wanted to create some 
   unity throughout my site. */
 
+
   /*The following is referring to the Portfolio Identity logo
   at the top of the page between my name and the navigation.*/
 .center{
@@ -36,53 +37,53 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
-/*This is the end of the Portfolio Identity logo formatting.*/
 
-  h2 {
-    text-align: left;
-    font-family: "Bodoni Moda";
-    font-size: 2em;
-    font-weight: 1000;
-    color:black;
-    margin-bottom: .3em;
-    letter-spacing: 1.1px;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
+
+h2 {
+  text-align: left;
+  font-family: "Bodoni Moda";
+  font-size: 2em;
+  font-weight: 1000;
+  color:black;
+  margin-bottom: .3em;
+  letter-spacing: 1.1px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+
+h3 {
+  font-variant: small-caps;
+  font-size: 1.4em;
+  border-color: #331313;
+  background-color: white;
+  border: 1.5px solid;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px; 
+  letter-spacing: 0.6px;
   }
 
-
-  h3 {
-    font-variant: small-caps;
-    font-size: 1.4em;
-    border-color: #331313;
-    background-color: white;
-    border: 1.5px solid;
-    border-radius: 3px;
-    display: inline-block;
-    margin: 5px;
-    padding: 5px; 
-    letter-spacing: 0.6px;
-  }
-
+    /* The heading 5 is for the second aside on my page 
+  (my list of favourite movies). I chose oblique instead
+  of italicized font because I like the style better 
+  in this case.*/
   h5 {
     font-size: 1.2em;
     font-style: oblique;
     margin-bottom: 0px;
   }
 
-  /* The heading 5 is for the second aside on my page 
-  (my list of favourite movies). I chose oblique instead
-  of italicized font because I like the style better 
-  in this case.*/
-
-p {
-  font-size: 1.2em;
-  line-height: 1.2em;
-}
-/*Wanted to experiment wiht line height. I think this
-is a perfect amount for the paragraph text: not too 
-much, making it look too spaced out, but not too little,
-either, making it look too scrunched and compact. */
+  p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+  
+  /*Wanted to experiment wiht line height. I think this
+  is a perfect amount for the paragraph text: not too  
+  much, making it look too spaced out, but not too little,
+  either, making it look too scrunched and compact. */
 
  /*The following section is for the aside (the entire aside) for 
  the "Opie Soaps" logo in the About Me section.*/
@@ -106,16 +107,17 @@ either, making it look too scrunched and compact. */
     position:relative;
     top: -20px;
     }
+
   /*This section is only for the logo itself within the aside, to
-  position it a little more centered within the box/border.*/
+  position it to be more centered within the box/border.*/
     .oslogo{
       margin-left: -11px;
       margin-top: -8px;
     }
-  /*This is the end of this section (for the "Opie Soaps" aside and logo.*/
   
-  /*So that the "My Hobbies & Dislikes" section doesn't wrap about my designs, 
-  I used this "clear" feature (below).*/
+  /*Using this property "clear" so that the "My Hobbies & Dislikes" section 
+  doesn't wrap about my designs.*/
+
   .myhobbies {
     clear: left;
   }
@@ -144,28 +146,23 @@ either, making it look too scrunched and compact. */
     letter-spacing: .6px;
   }
 
-    /* I chose this particular background color for
-    the table header (as well as the "even" classes to 
-    correspond with the colors in my Opie Soaps logo. I 
-    also noticed that without letter-spacing, the heading
-    looked very crowded.*/
+  /* I chose this particular background color for the table 
+  header (as well as the "even" classes to correspond with 
+  the colors in my Opie Soaps logo. I also noticed that without 
+  letter-spacing, the heading looked very crowded.*/
 
   /*This is so that the two design images (in "My Designs" section)
   can fit side by side and without running into the "Hobbies & Dislikes" 
   section.*/
-.column {
-  float: left;
-  width: 300px;
-  padding: 20px;
-  white-space: nowrap;
-  padding-left: 10px;
+
+  .column {
+    float: left;
+    width: 300px;
+    padding: 20px;
+    white-space: nowrap;
+    padding-left: 10px;
 }
 
-/*This is the end of this section.*/
-
-a:hover{
-  border: 2.5px solid rgba(178, 138, 120, .2)
-} 
 
   /*This is for the tables so that the even and odd rows have
   separate background colors.*/
@@ -225,6 +222,10 @@ happy with this effect that I found online in a CSS tutorial.
 I thought this was the perfect opportunity to incorporate
 it in to my page (to show off Opie - "the man behind 
 the brand" of "Opie Soaps").*/
+
+a:hover{
+  border: 2.5px solid rgba(178, 138, 120, .2)
+} 
 
 /*This section is for the HORIZONTAL navigation links at 
 the top of the page.*/
