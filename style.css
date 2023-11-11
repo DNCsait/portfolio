@@ -20,7 +20,7 @@ h1 {
   font-size: 3em;
   font-weight: bolder;
   color: black;
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
   }
 
   /*I used the google font, "Bodoni Moda", because it is
@@ -78,6 +78,7 @@ p {
 
 /*The following is referring to the Portfolio Identity logo
 at the top of the page between my name and the navigation.*/
+
 .brandidentity{
   display: block;
   margin-left: auto;
@@ -85,7 +86,6 @@ at the top of the page between my name and the navigation.*/
   padding-bottom: 40px;
   }
 
-  
 /*Wanted to experiment wiht line height. I think this
 is a perfect amount for the paragraph text: not too  
 much, making it look too spaced out, but not too little,
@@ -93,6 +93,7 @@ either, making it look too scrunched and compact. */
 
  /*The following section is for the aside (the entire aside) for 
  the "Opie Soaps" logo in the About Me section.*/
+
 .logo {
   background-color: white;
   border-style: solid;
@@ -121,8 +122,8 @@ position it to be more centered within the box/border.*/
   margin-top: -8px;
   }
   
-/*Using this property "clear" so that the "My Hobbies & Dislikes" section 
-doesn't wrap about my designs.*/
+/*Using this property "clear" so that the "My Hobbies & Dislikes" 
+section doesn't wrap about my designs.*/
 .myhobbies {
   clear: left;
   }
@@ -168,20 +169,22 @@ section.*/
   padding-left: 10px;
   }
 
-
 /*This is for the tables so that the even and odd rows have
 separate background colors.*/
+
 .even {
   background-color: rgba(51, 19, 19, 0.2);
   }
 .odd {
   background-color: white;
   }
+
 /*This is the end of this section.*/
 
 /*This is for the Short Term and Long Term goals lists. I wanted to
 make the even items one color, and the odd items another color, WITHOUT
 the use of an "even" class in HTML.*/
+
 li:nth-child(even) {
   color: #6f1f02;
   font-size: 1.2em;
@@ -204,11 +207,13 @@ odd items, so I went this route instead. I may go back and change
 it later, depending on how badly I want that maroon color.*/
   
 /*This is to make the links within my page have a hover effect.*/
+
 a:hover{
   border: 2.5px solid rgba(178, 138, 120, .2)
   } 
 
 /*This section is for the "Polaroid Picture" of Opie.*/
+
 .card { 
   width: 240px;
   height: 280px; 
@@ -231,7 +236,7 @@ a:hover{
 /*This section is for the HORIZONTAL navigation links at 
 the top of the page.*/
 
-#navigation li{
+#navigation {
   margin:0 auto;
   list-style:none;
   }
@@ -243,16 +248,13 @@ the top of the page.*/
 
 #navigation a {
   color: #ffffff;
-  background-color: #331313;
-  border: 1.5px solid;
-  border-radius: 3px;
-  display:block;
+  display: block;
   text-align:center;
+  text-transform:uppercase;
+  text-decoration:none; 
   font-family: "Bodoni Moda";
   font-size: 1em;
   font-weight: 1000;
-  text-transform:uppercase;
-  text-decoration:none; 
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 12px;
@@ -260,19 +262,29 @@ the top of the page.*/
   border-radius: 3px;
   margin-left: 10px;
   margin-right: 10px;
-  width: 90%;
   overflow: hidden;
   text-overflow: ellipsis;
   }
-  
+
+.aboutme, .mydesigns, .contact{
+  border-color: #331313;
+  background-color: #331313;
+  border: 1.5px solid;
+  float: left;
+  align-items: center;
+  width: 85%;
+  }
 
 
 /*This section is for the VERTICAL navigation links at 
 the top of the page, under the HORIZONTAL links.*/
+
 #Misc {
   margin:0 auto;
   list-style:none;
   width: max-content;
+  list-style: none;
+  text-align: center;
   }
   
 #Misc a {
@@ -292,11 +304,6 @@ the top of the page, under the HORIZONTAL links.*/
   margin-left: 1px;
   border-radius: 3px;
   }
-    
-#Misc{
-  list-style: none;
-  text-align: center;
-  }
 
 .education, .hobbies, .goals{
   border-color: #331313;
@@ -306,11 +313,11 @@ the top of the page, under the HORIZONTAL links.*/
   align-items: center;
   }
 
-  /*This is the end of that navigation section as a whole.
-  On the rubric for this assignment, it was mentioned to experiment
-  with both vertical and horizontal navigation links. I wanted to 
-  try both at the top of the page. It may feel a little crowded, but
-  overall I like it. It looks pretty cool.*/
+/*This is the end of that navigation section as a whole.
+On the rubric for this assignment, it was mentioned to experiment
+with both vertical and horizontal navigation links. I wanted to 
+try both at the top of the page. It may feel a little crowded, but
+overall I like it. It looks pretty cool.*/
   
 footer{
   white-space: nowrap; 
