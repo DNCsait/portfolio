@@ -237,7 +237,8 @@ a:hover{
 the top of the page.*/
 
 #navigation {
-  margin:0 auto;
+  margin-left: 80px;
+  margin-right: 60px;
   list-style:none;
   }
 
