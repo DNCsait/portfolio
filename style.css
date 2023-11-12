@@ -34,7 +34,7 @@ h2 {
   font-family: "Bodoni Moda";
   font-size: 2.1em;
   font-weight: bolder;
-  color:black;
+  color:#331313;
   margin-bottom: .3em;
   letter-spacing: 1.1px;
   text-decoration-line: underline;
@@ -263,8 +263,9 @@ it later, depending on how badly I want that maroon color.*/
   border-top: 2.5px #331313;
   color: #dfd2c2;
 }
+
 /*This section is for the VERTICAL navigation links at 
-the top of the page, under the HORIZONTAL links.*/
+the top of the page, under the HORIZONTAL nav bar.*/
 
 #navbar2 {
   margin:0 auto;
