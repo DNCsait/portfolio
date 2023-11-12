@@ -205,12 +205,6 @@ table headings and my navigation bar. However, it was hard to tell
 the difference between that dark maroon and the black font of the 
 odd items, so I went this route instead. I may go back and change 
 it later, depending on how badly I want that maroon color.*/
-  
-/*This is to make the links within my page have a hover effect.*/
-
-a:hover{
-  border: 2.5px solid rgba(178, 138, 120, .2)
-  } 
 
 /*This section is for the "Polaroid Picture" of Opie.*/
 
@@ -233,81 +227,77 @@ a:hover{
   padding: .05px; 
   } 
 
-/*This section is for the HORIZONTAL navigation links at 
-the top of the page.*/
+/*This is all for the HORIZONTAL nav bar.*/
 
-#navigation {
-  margin-left: 80px;
-  margin-right: 60px;
-  list-style:none;
-  }
+#navigation{
+  background-color: #331313;
+  color: #ffffff; 
+  text-align: center;
+  padding: 9px; 
+}
+#navigation ul {
+  list-style: none;
+}
 
 #navigation li {
-  float: left;
-  width: 32%;
-  }
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 #navigation a {
+  text-decoration: none;
   color: #ffffff;
-  display: block;
-  text-align:center;
-  text-transform:uppercase;
-  text-decoration:none; 
   font-family: "Bodoni Moda";
   font-size: 1em;
-  font-weight: 1000;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-radius: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  }
+  text-transform: uppercase;
+}
 
-.aboutme, .mydesigns, .contact{
-  border-color: #331313;
-  background-color: #331313;
-  border: 1.5px solid;
-  float: left;
-  align-items: center;
-  width: 85%;
-  }
-
-
+#navigation a:hover {
+  border-left: 2.5px solid #dfd2c2;
+  border-right: 2.5px solid #dfd2c2;
+  padding: 20px;
+  border-bottom: 2.5px #331313;
+  border-top: 2.5px #331313;
+  color: #dfd2c2;
+}
 /*This section is for the VERTICAL navigation links at 
 the top of the page, under the HORIZONTAL links.*/
 
-#Misc {
+#navbar2 {
   margin:0 auto;
   list-style:none;
-  width: max-content;
-  list-style: none;
   text-align: center;
   }
   
-#Misc a {
+#navbar2 a {
   color: #ffffff;
   display:block;
   text-align:center;
   text-transform:uppercase;
   text-decoration:none; 
   font-family: "Bodoni Moda";
-  font-size: 1em;
+  font-size: .8em;
   font-weight: 1000;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   margin-right: 43px;
   margin-left: 1px;
   border-radius: 3px;
   }
 
+#navbar2 a:hover{
+  border-left: 1.5px solid #dfd2c2;
+  border-right: 1.5px solid #dfd2c2;
+  padding: 12px;
+  color: #dfd2c2;
+  } 
+
 .education, .hobbies, .goals{
-  border-color: #331313;
   background-color: #331313;
   border: 1.5px solid;
   float: none;
