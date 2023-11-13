@@ -1,15 +1,16 @@
 body {
   font-size: 1.04em;
   background-color:rgba(178, 138, 120, .1);
+  font-family: "Bona Nova";
   }
 
 /*I chose a more subdued background color, and lowered the opacity.
-I am no the biggest fan of color, so I decided to take the light
+I am not the biggest fan of color, so I decided to take the light
 pink/dusty rose color from my logo and use that as my background.
 I wanted to keep that unity throughout my page. It doesn't totally
-look like I have a background color, but when you scroll down to look 
-at my design photos, specifically the ones with white backgrounds,
-you can tell that there really is a background color. */
+look like I have a background color, you compare it to the white 
+backgrounds I have (in my aside, font text in table headings, and
+the background of my soap label design), you can see the difference.*/
 
 /*I made sure that body font is no smaller than 12px (.75em) to follow 
 the WCAG guidelines.*/
@@ -24,11 +25,10 @@ h1 {
   }
 
   /*I used the google font, "Bodoni Moda", because it is
-  still eye-catching but also goes along with my h2 heading
-  text, which is just your basic Bodoni 72. This is the font that
-  I use in my Opie Soaps logo, and wanted to create some 
-  unity throughout my site. (I also made sure to make these headings
-  the dark maroon color to make them standout a little more.*/
+  still eye-catching but also goes along with my font in my 
+  "Opie Soaps" logo (your basic Bodoni 72). (I also made sure 
+  to make these headings the dark maroon color to make them 
+  standout a little more.*/
 
 h2 {
   text-align: left;
@@ -46,6 +46,8 @@ h2 {
 h3 {
   font-variant: small-caps;
   font-size: 1.4em;
+  font-family: "Libre Bodoni";
+  font-weight: bolder;
   border-color: #331313;
   background-color: white;
   border: 1.5px solid;
@@ -89,11 +91,12 @@ at the top of the page between my name and the navigation.*/
 
 /*Wanted to experiment wiht line height. I think this
 is a perfect amount for the paragraph text: not too  
-much, making it look too spaced out, but not too little,
+much, which makes it look too spaced out, but not too little,
 either, making it look too scrunched and compact. */
 
-/*The following section is for the aside (the entire aside) for 
-the "Opie Soaps" logo in the About Me section.*/
+/*The following section is for the aside (the entire aside - the
+box and the contents within) for the "Opie Soaps" logo in the 
+"About Me" section.*/
 
 .logo {
   background-color: white;
@@ -104,13 +107,15 @@ the "Opie Soaps" logo in the About Me section.*/
   float: left;
   height: 315px;
   width: 280px;
-  padding: 1px;
+  padding-bottom: 8px;
+  padding-left: 2px;
+  padding-right: 5px;
   margin-left: 1px;
   margin-right: 20px;
   margin-bottom: 20px;
   margin-top: 10px;
   font-size: 1em;
-  font-style: italic;
+  font-style: oblique;
   text-align: center;
   position:relative;
   top: -20px;
@@ -156,6 +161,8 @@ th {
   border: 3px solid black;
   text-align: left;
   font-variant: small-caps;
+  font-family: "Libre Bodoni";
+  font-weight: 900;
   font-size: 1.4em;
   letter-spacing: .6px;
   }
@@ -194,7 +201,7 @@ make the even items one color, and the odd items another color, WITHOUT
 the use of an "even" class in HTML.*/
 
 li:nth-child(even) {
-  color: #6f1f02;
+  color: #4a1401;
   font-size: 1.2em;
   line-height: 1.2em;
   }
@@ -206,7 +213,7 @@ li:nth-child(odd) {
 }
 
 /* Sidenote: I made the even items in all unordered lists this  
-color (#6f1f02) because it stands out a little better than the 
+color (#4a1401) because it stands out a little better than the 
 color I actually wanted to use (dark maroon: #331313) because it 
 is within all of my designs/logos, and the background color in my 
 table headings and my navigation bar. However, it was hard to tell 
