@@ -336,7 +336,7 @@ from my design and logo color palettes.*/
 /*This is the green from my designs (specifically the soap label art),
 with an opacity of 0.4*/
 @media screen and (min-width: 0px) and (max-width: 400px) {
-    body { background-color: rgba(108, 130, 118, 0.3); }
+    body { background-color: rgba(108, 130, 118, 0.2); }
 }
 
 /*This is the deep maroon from my color scheme, with an opacity set
