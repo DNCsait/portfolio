@@ -329,3 +329,25 @@ overall I like it. It looks pretty cool.*/
 footer{
   white-space: nowrap; 
   }
+
+/* I dedcided to go with more muted colors, but still all colors
+from my design and logo color palettes.*/
+
+/*This is the green from my designs (specifically the soap label art),
+with an opacity of 0.4*/
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    body { background-color: rgba(108, 130, 118, 0.4); }
+}
+
+/*This is the deep maroon from my color scheme, with an opacity set
+to 0.3.*/
+@media screen and (min-width: 401px) and (max-width: 599px) {
+    body { background-color: rgba(51, 19, 19, .3); }
+}
+
+/*This the dusty rose color in my designs and my logo; this is the main
+color I have been using while building this website, and what I see most,
+as I spend most time working on the desktop (or wider screen) version.*/
+@media screen and (min-width: 600px) {
+    body { background-color: rgba(178, 138, 120, .1)e; }
+}
