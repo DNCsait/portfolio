@@ -334,7 +334,7 @@ footer{
 from my design and logo color palettes.*/
 
 /*This is the green from my designs (specifically the soap label art),
-with an opacity of 0.4*/
+with an opacity of 0.2*/
 @media screen and (min-width: 0px) and (max-width: 400px) {
     body { background-color: rgba(108, 130, 118, 0.2); }
 }
