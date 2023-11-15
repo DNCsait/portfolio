@@ -141,7 +141,7 @@ position it to be more centered within the box/border.*/
   height: fit-content;
   width: fit-content;
   padding: 10px;
-  float: right;
+  clear: left;
   margin-bottom: 40px;
   }
   
