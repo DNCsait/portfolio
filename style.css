@@ -139,7 +139,7 @@ position it to be more centered within the box/border.*/
   border-color: #331313;
   border-radius: 3px;
   height: fit-content;
-  width: fit-content;
+  max-width: 650px;
   padding: 10px;
   display: block;
   clear: both;
