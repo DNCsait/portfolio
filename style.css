@@ -124,9 +124,25 @@ box and the contents within) for the "Opie Soaps" logo in the
 
 /*This section is only for the logo itself within the aside, to
 position it to be more centered within the box/border.*/
+
 .oslogo{
   margin-left: -11px;
   margin-top: -8px;
+  }
+
+.NEDA{
+  font-size: 1em;
+  font-style: oblique;
+  background-color: white;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #331313;
+  border-radius: 3px;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  float: left;
+  margin-bottom: 40px;
   }
   
 /*Using this property "clear" so that the "My Hobbies & Dislikes" 
@@ -320,6 +336,7 @@ the top of the page, under the HORIZONTAL nav bar.*/
   float: none;
   align-items: center;
   }
+
 
 /*This is the end of that navigation section as a whole.
 On the rubric for this assignment, it was mentioned to experiment
