@@ -78,6 +78,11 @@ p {
   line-height: 1.2em;
   }
 
+.flexcontainer{
+  display: flex;
+  gap: 26px;
+}
+
 .Movies{
   list-style-position: inside;
   list-style-type: disc;
@@ -107,7 +112,7 @@ box and the contents within) for the "Opie Soaps" logo in the
   border-width: 1.5px;
   border-color: #331313;
   border-radius: 3px;
-  float: left;
+  float: right;
   height: 330px;
   width: 330px;
   padding-bottom: 10px;
@@ -366,7 +371,9 @@ the black text, and a 8.05:1 against the red list text.*/
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
     body { background-color: #b5c0ba}
-}
+.flexcontainer{display: block; }
+  }
+
 
 /*This is the deep maroon from my color scheme, with an opacity set
 to 0.3. To make sure I follow the WCAG contrast guidelines of a 4.5:1 ratio, I
