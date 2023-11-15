@@ -164,6 +164,7 @@ caption{
   text-align: left;
   color: black;
   font-style: italic;
+  padding-top: 5px;
 }
 
 table {
@@ -311,6 +312,8 @@ the top of the page, under the HORIZONTAL nav bar.*/
   margin:0 auto;
   list-style:none;
   text-align: center;
+  align-items: center;
+  width: 400px;
   }
   
 #navbar2 a {
@@ -329,6 +332,9 @@ the top of the page, under the HORIZONTAL nav bar.*/
   margin-right: 43px;
   margin-left: 1px;
   border-radius: 3px;
+  background-color: #331313;
+  border: 1.5px solid;
+  float: none;
   }
 
 #navbar2 a:hover{
@@ -337,13 +343,6 @@ the top of the page, under the HORIZONTAL nav bar.*/
   padding: 12px;
   color: #dfd2c2;
   } 
-
-.education, .hobbies, .goals{
-  background-color: #331313;
-  border: 1.5px solid;
-  float: none;
-  align-items: center;
-  }
 
 
 /*This is the end of that navigation section as a whole.
