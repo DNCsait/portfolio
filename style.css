@@ -353,20 +353,32 @@ footer{
 from my design and logo color palettes.*/
 
 /*This is the green from my designs (specifically the soap label art),
-with an opacity of 0.2*/
+with an opacity of 0.2. To make sure I follow the WCAG contrast guidelines of a 4.5:1 ratio, I
+tested each color combination using webaim.org. This green passes with a 
+ratio of 9.01:1 against the dark maroon heading text, a ratio of 11.21:1 against
+the black text, and a 8.05:1 against the red list text.*/
+
 @media screen and (min-width: 0px) and (max-width: 400px) {
-    body { background-color: rgba(108, 130, 118, 0.2); }
+    body { background-color: #b5c0ba}
 }
 
 /*This is the deep maroon from my color scheme, with an opacity set
-to 0.3.*/
+to 0.3. To make sure I follow the WCAG contrast guidelines of a 4.5:1 ratio, I
+tested each color combination using webaim.org. This maroon passes with a 
+ratio of 8.62:1 against the dark maroon heading text, a ratio of 10.72:1 against
+the black text, and a 7.7:1 against the red list text.*/
+
 @media screen and (min-width: 401px) and (max-width: 599px) {
-    body { background-color: rgba(51, 19, 19, .3); }
+    body { background-color: rgba(51, 19, 19, .3) }
 }
 
 /*This the dusty rose color in my designs and my logo; this is the main
 color I have been using while building this website, and what I see most,
-as I spend most time working on the desktop (or wider screen) version.*/
+as I spend most time working on the desktop (or wider screen) version.
+To make sure I follow the WCAG contrast guidelines of a 4.5:1 ratio, I
+tested each color combination using webaim.org. This light dusty rose passes 
+with a ratio of 15.35:1 against the dark maroon heading text, a ratio of 19.09:1 
+against the black text, and a 13.71:1 against the red list text.*/
 @media screen and (min-width: 600px) {
-    body { background-color: rgba(178, 138, 120, .1)e; }
+    body { background-color: rgba(178, 138, 120, .1)}
 }
