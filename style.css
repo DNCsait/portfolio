@@ -15,6 +15,11 @@ the background of my soap label design), you can see the difference.*/
 /*I made sure that body font is no smaller than 12px (.75em) to follow 
 the WCAG guidelines.*/
 
+::selection {
+  background: #b5c0ba;
+  color: #fff;
+}
+
 h1 {
   text-align: center;
   font-family: "Bodoni Moda";
@@ -112,7 +117,7 @@ box and the contents within) for the "Opie Soaps" logo in the
   border-width: 1.5px;
   border-color: #331313;
   border-radius: 3px;
-  float: right;
+  float: left;
   height: 330px;
   width: 330px;
   padding-bottom: 10px;
@@ -121,12 +126,11 @@ box and the contents within) for the "Opie Soaps" logo in the
   padding-top: 5px;
   margin-left: 1px;
   margin-right: 20px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 1px;
   font-size: 1em;
   font-style: oblique;
   text-align: center;
-  position:relative;
   top: -20px;
   }
 
@@ -165,11 +169,11 @@ section doesn't wrap about my designs.*/
   }
 
 caption{
-  caption-side: bottom;
+  caption-side: top;
   text-align: left;
   color: black;
   font-style: italic;
-  padding-top: 5px;
+  padding-bottom: 2px;
 }
 
 table {
@@ -372,8 +376,9 @@ the black text, and a 8.05:1 against the red list text.*/
 @media screen and (min-width: 0px) and (max-width: 400px) {
     body { background-color: #b5c0ba}
 .flexcontainer{display: block; }
+.logo {margin-bottom: 12px;
+}
   }
-
 
 /*This is the deep maroon from my color scheme, with an opacity set
 to 0.3. To make sure I follow the WCAG contrast guidelines of a 4.5:1 ratio, I
@@ -383,6 +388,8 @@ the black text, and a 7.7:1 against the red list text.*/
 
 @media screen and (min-width: 401px) and (max-width: 599px) {
     body { background-color: rgba(51, 19, 19, .3) }
+    .logo {margin-bottom: 12px;
+    }
 }
 
 /*This the dusty rose color in my designs and my logo; this is the main
