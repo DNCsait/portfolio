@@ -141,9 +141,9 @@ position it to be more centered within the box/border.*/
   height: fit-content;
   max-width: 650px;
   padding: 10px;
-  display: block;
   clear: both;
   margin-bottom: 40px;
+  margin-top: 10px;
   }
   
 /*Using this property "clear" so that the "My Hobbies & Dislikes" 
