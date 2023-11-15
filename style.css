@@ -147,6 +147,9 @@ position it to be more centered within the box/border.*/
   clear: both;
   margin-bottom: 40px;
   margin-top: 10px;
+  color: #331313;
+  font-weight: 500;
+  font-family: "Bona Nova";
   }
   
 /*Using this property "clear" so that the "My Hobbies & Dislikes" 
