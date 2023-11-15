@@ -118,15 +118,15 @@ box and the contents within) for the "Opie Soaps" logo in the
   border-color: #331313;
   border-radius: 3px;
   float: left;
-  height: 330px;
-  width: 330px;
+  height: 320px;
+  width: 320px;
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
-  padding-top: 5px;
+  padding-top: 3px;
   margin-left: 1px;
   margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 10.5px;
   margin-top: 1px;
   font-size: 1em;
   font-style: oblique;
@@ -376,7 +376,7 @@ the black text, and a 8.05:1 against the red list text.*/
 @media screen and (min-width: 0px) and (max-width: 400px) {
     body { background-color: #b5c0ba}
 .flexcontainer{display: block; }
-.logo {margin-bottom: 12px;
+.logo {margin-bottom: 15px;
 }
   }
 
