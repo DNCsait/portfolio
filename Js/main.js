@@ -1,7 +1,12 @@
+
 name = "Dana";
 alert(name)
 
-let fruit = "banana"
-console.log(fruit)
-let veg = "cucumber"
-console.log(veg)  
+document.addEventListener('DOMContentLoaded', function() {
+    var currentYear = new Date().getFullYear();
+    document.getElementById('year').textContent = currentYear;
+   });
+
+   function myFunction() {
+    alert("Another hobby of mine is photography.")
+   }

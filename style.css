@@ -360,10 +360,21 @@ On the rubric for this assignment, it was mentioned to experiment
 with both vertical and horizontal navigation links. I wanted to 
 try both at the top of the page. It may feel a little crowded, but
 overall I like it. It looks pretty cool.*/
+
+#btn-alert{
+  font-family: "Bodoni Moda";
+  font-size: 0.8em;
+  font-variant: small-caps;
+
+}
   
 footer{
   white-space: nowrap; 
   }
+
+#year{
+  color:#331313;
+}  
 
 /* I dedcided to go with more muted colors, but still all colors
 from my design and logo color palettes.*/
