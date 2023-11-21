@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', function() {
    });
 
    function myFunction() {
-    alert("Another hobby of mine is photography.")
+    alert("Thanks for checking out my website!")
    }
