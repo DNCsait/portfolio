@@ -10,3 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
    function myFunction() {
     alert("Thanks for checking out my website!")
    }
+
+   function click() {
+    document.getElementById("btn-alert").innerHTML = "Fact"
+   }
+   
+   function lastnote() {
+    document.getElementById("btn-alert").innerHTML = "One Last Note"
+   }
