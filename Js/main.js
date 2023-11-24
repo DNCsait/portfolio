@@ -1,6 +1,6 @@
 
-message = "Welcome to My Webpage!";
-alert(message)
+//message = "Welcome to My Webpage!";
+//alert(message)
 
 document.addEventListener('DOMContentLoaded', function() {
     var currentYear = new Date().getFullYear();
@@ -32,3 +32,4 @@ document.addEventListener('DOMContentLoaded', function() {
     number = 1;
     document.getElementById("txt-counter").innerHTML = number;
 }
+
