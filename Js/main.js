@@ -7,14 +7,15 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('year').textContent = currentYear;
    });
 
-   function myFunction() {
-    alert("Thanks for checking out my website!")
+ 
+   function lastnote() {
+    document.getElementById("btn-alert") .innerHTML = "One Last Note"
    }
 
-   function click() {
-    document.getElementById("btn-alert").innerHTML = "Fact"
+   function bye() {
+    document.getElementById("btn-alert") .innerHTML = "I Promise"
    }
-   
-   function lastnote() {
-    document.getElementById("btn-alert").innerHTML = "One Last Note"
+
+   function thanks() {
+   alert("Thanks for Checking Out My Website") 
    }
