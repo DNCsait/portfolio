@@ -27,3 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     countEl = document.getElementById("txt-counter")
     countEl.textContent = count
    }  
+
+   function reset() {
+    number = 1;
+    document.getElementById("txt-counter").innerHTML = number;
+}
