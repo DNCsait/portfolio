@@ -1,6 +1,6 @@
 
-name = "Dana";
-alert(name)
+message = "Welcome to My Page!";
+alert(message)
 
 document.addEventListener('DOMContentLoaded', function() {
     var currentYear = new Date().getFullYear();
@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
    }
 
    function bye() {
-    document.getElementById("btn-alert") .innerHTML = "I Promise"
+    document.getElementById("btn-alert") .innerHTML = "I Promise..."
    }
 
    function thanks() {
-   alert("Thanks for Checking Out My Website") 
+   alert("Thanks for Checking Out My Website!") 
    }
