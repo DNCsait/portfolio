@@ -370,6 +370,14 @@ overall I like it. It looks pretty cool.*/
   color: #331313;
 }
 
+#btn-counter{
+  font-family: "Bodoni Moda";
+  font-size: 0.8em;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
   
 footer{
   white-space: nowrap; 

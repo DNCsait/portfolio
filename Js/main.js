@@ -1,5 +1,5 @@
 
-message = "Welcome to My Page!";
+message = "Welcome to My Webpage!";
 alert(message)
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -13,9 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
    }
 
    function bye() {
-    document.getElementById("btn-alert") .innerHTML = "I Promise..."
+    document.getElementById("btn-alert") .innerHTML = "Before You Go"
    }
 
    function thanks() {
-   alert("Thanks for Checking Out My Website!") 
+   alert("Thanks for Checking Out My Webpage!") 
    }
+
