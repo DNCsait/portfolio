@@ -399,7 +399,7 @@ mouseover button and my incrementing button*/
   padding-bottom: 3px;
   border: solid;
   border-color: #797778;
-  width: 40px;
+  width: fit-content;
   border-radius: 3px;
   border-width: 1px;
   background-color: #efefef
