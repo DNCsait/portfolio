@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
    }
 
    function thanks() {
-   alert("Thanks for Checking Out My Website") 
+   alert("Thanks for Checking Out My Webpage!") 
    }
 
    let count = 1;
