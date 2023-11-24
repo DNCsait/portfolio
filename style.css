@@ -363,9 +363,9 @@ overall I like it. It looks pretty cool.*/
 
 #btn-alert{
   font-family: "Bodoni Moda";
-  font-size: 1em;
+  font-size: 1.2em;
   font-variant: small-caps;
-  margin-bottom: 10;
+  margin-bottom: 10px;
   margin-top: 20px;
   color: #331313;
   font-weight: bolder;
@@ -373,7 +373,7 @@ overall I like it. It looks pretty cool.*/
 
 #btn-counter{
   font-family: "Bodoni Moda";
-  font-size: 1em;
+  font-size: 1.2em;
   font-variant: small-caps;
   margin-bottom: 10px;
   margin-top: 20px;
