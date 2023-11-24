@@ -13,10 +13,15 @@ document.addEventListener('DOMContentLoaded', function() {
    }
 
    function bye() {
-    document.getElementById("btn-alert") .innerHTML = "Before You Go"
+    document.getElementById("btn-alert") .innerHTML = "I Promise"
    }
 
    function thanks() {
-   alert("Thanks for Checking Out My Webpage!") 
+   alert("Thanks for Checking Out My Website") 
    }
 
+   let count = 1;
+document.getElementById('btn-counter').onclick = () => {
+     count = count + 1;
+     document.getElementById('txt-counter').innerHTML = 'message'
+}
