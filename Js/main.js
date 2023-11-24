@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
    }
 
    function bye() {
-    document.getElementById("btn-alert") .innerHTML = "I Promise"
+    document.getElementById("btn-alert") .innerHTML = "Before You Go"
    }
 
    function thanks() {
