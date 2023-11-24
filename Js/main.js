@@ -20,8 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
    alert("Thanks for Checking Out My Webpage!") 
    }
 
-   let count = 1;
-document.getElementById('btn-counter').onclick = () => {
-     count = count + 1;
-     document.getElementById('txt-counter').innerHTML = 'message'
-}
+   let count = 0
+    document.getElementById("txt-counter")
+   function increment() {
+    count += 1
+    countEl = document.getElementById("txt-counter")
+    countEl.textContent = count
+   }  
