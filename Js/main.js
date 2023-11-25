@@ -28,8 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
     countEl.textContent = count
    }  
 
-   function reset() {
+ /*  function reset() {
     number = 1;
     document.getElementById("txt-counter").innerHTML = number;
-}
+} */
+
+
 
