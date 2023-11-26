@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
    function increment() {
     count += 1
     countEl = document.getElementById("txt-counter")
-    countEl.textContent = count}
+    countEl.textContent = count
 if (count % 2===0) {
-  countEl.style.color="red"; 
+  countEl.style.color="blue"; 
 }
 else {
-  countEl.style.color="blue";
+  countEl.style.color="purple";
    }
-    
+   }
