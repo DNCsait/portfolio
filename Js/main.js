@@ -26,12 +26,52 @@ document.addEventListener('DOMContentLoaded', function() {
     count += 1
     countEl = document.getElementById("txt-counter")
     countEl.textContent = count
+
+    if (count %2===0) (
+      countEL.style.color="red";)
+      else (
+        countEl.style.color="blue";
+      )
+
    }  
 
- /*  function reset() {
-    number = 1;
-    document.getElementById("txt-counter").innerHTML = number;
-} */
+/*
+let count = 0;
+const el = document.getElementById("incrementer");
+el.addEventListener("click", handleIncrement);
+function handleIncrement() {
+  count += 1;
+  if(count % 2 ===0) {
+    //style when even
+    el.style.backgroundColor="red";
+  } else {
+    //style when odd
+    el.style.backgroundColor="blue"
+  }
+
+  }
 
 
+   /*Attempt at Color Change based on even/odd
 
+   function incrementCounter() {
+    counter+=1;
+    countElement = document.getElementById("txt-counter");
+    countElement.textContent = counter;
+
+    if (counter % 2 === 0) {
+      countElement.style.color = "blue";
+    } else {
+      countElement.style.color = "red";
+    }
+  }
+*/
+
+/*Attempt at ordered list. 
+var orderedList = document.getElementById("numbers")
+for (var i = 1; i <= 100; i++) {
+    var listItem = document.createElement("li");
+    listItem.textContent = "text" + i;
+    orderedList.appendChild(listItem);
+}
+*/
