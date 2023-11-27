@@ -2,6 +2,8 @@
 //message = "Welcome to My Webpage!";
 //alert(message)
 
+console.log("Hello World")
+
 document.addEventListener('DOMContentLoaded', function() {
     var currentYear = new Date().getFullYear();
     document.getElementById('year').textContent = currentYear;
@@ -22,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
    let count = 0
     document.getElementById("txt-counter")
-   function increment() {
+  function increment() {
     count += 1
-    countEl = document.getElementById("txt-counter")
+   const countEl = document.getElementById("txt-counter")
     countEl.textContent = count
 if (count % 2===0) {
   countEl.style.color="blue"; 
@@ -32,4 +34,25 @@ if (count % 2===0) {
 else {
   countEl.style.color="purple";
    }
-   }
+  }
+
+function danaloop(){
+const numol = document.getElementById("numbers");
+let i
+
+for(i=1;i<=100;i=i+1 ) 
+{
+  console.log(i)
+  let liElement = document.createElement("li");
+  if (i % 2===0) {
+    liElement.textContent="Even"; 
+  }
+  else {
+    liElement.textContent="Odd";
+     }
+  
+  document.getElementById("numbers").appendChild(liElement);
+}
+}
+
+danaloop()
