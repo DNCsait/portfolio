@@ -66,7 +66,7 @@ danaloop()
 let txt = "Dana can drink coffee all day";
 console.log(txt)  
 
-let however = "...just not Starbucks, though."
+let however = "...not Starbucks, though."
 console.log(however)
 
 myColor = ["Burnt Scarlet", " Dusty Rose", " Hemlock Green"];
