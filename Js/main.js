@@ -2,6 +2,10 @@
 //message = "Welcome to My Webpage!";
 //alert(message)
 
+/*I disabled the above alert message ("Welcome to My Webpage!"
+because it gets a little annoying the first few times it 
+pops up or whenever I refresh my page.*/
+
 console.log("Hello World")
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -56,3 +60,36 @@ for(i=1;i<=100;i=i+1 )
 }
 
 danaloop()
+
+/*Little additions to put in as easter eggs and to use as practice*/
+
+let txt = "Dana can drink coffee all day";
+console.log(txt)  
+
+let however = "...just not Starbucks, though."
+console.log(however)
+
+myColor = ["Burnt Scarlet", " Dusty Rose", " Hemlock Green"];
+console.log(myColor.toString());
+
+let colors = "The above colors are my website's palette. I made the names up myself."
+console.log(colors)
+
+let dog = "Opie, my dog, is a mix between the following breeds:"
+console.log(dog)
+
+myDog = ["Husky ", " Retriever ", " Rottweiler"];
+console.log(myDog.join('+'));
+
+/*Interesting code I found to count down the number of days until X-Mas.
+Still reading through it to see if I completely understand how it works.*/
+
+today=new Date();
+var cmas=new Date(today.getFullYear(), 11, 25);
+if (today.getMonth()==11 && today.getDate()>25) 
+{
+cmas.setFullYear(cmas.getFullYear()+1); 
+}  
+var one_day=1000*60*60*24;
+console.log(Math.ceil((cmas.getTime()-today.getTime())/(one_day))+
+" days left until Christmas!");
