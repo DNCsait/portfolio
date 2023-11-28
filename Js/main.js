@@ -80,16 +80,3 @@ console.log(dog)
 
 myDog = ["Husky ", " Retriever ", " Rottweiler"];
 console.log(myDog.join('+'));
-
-/*Interesting code I found to count down the number of days until X-Mas.
-Still reading through it to see if I completely understand how it works.*/
-
-today=new Date();
-var cmas=new Date(today.getFullYear(), 11, 25);
-if (today.getMonth()==11 && today.getDate()>25) 
-{
-cmas.setFullYear(cmas.getFullYear()+1); 
-}  
-var one_day=1000*60*60*24;
-console.log(Math.ceil((cmas.getTime()-today.getTime())/(one_day))+
-" days left until Christmas!");
