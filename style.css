@@ -387,6 +387,18 @@ mouseover button and my incrementing button*/
   font-weight: bolder;
 }
 
+#but-counter{
+  font-family: "Bodoni Moda";
+  font-size: 1.08em;
+  font-variant: small-caps;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  color: #331313;
+  font-weight: bolder;
+}
+
 #txt-counter{
   font-family: "Bodoni Moda";
   font-size: 1.em;

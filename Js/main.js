@@ -40,6 +40,19 @@ else {
    }
   }
 
+  function decrement() {
+   count -=1;
+    document.getElementById("txt-counter").innerText = count;
+    const countEl = document.getElementById("txt-counter")
+    countEl.textContent = count
+    if (count % 2===0) {
+      countEl.style.color="blue"; 
+    }
+    else {
+      countEl.style.color="purple";
+       }
+}
+
 function danaloop(){
 const numol = document.getElementById("numbers");
 let i
@@ -65,6 +78,8 @@ danaloop()
 
 let txt = "Dana can drink coffee all day";
 console.log(txt)  
+console.log('---')
+console.log(txt.split(" ")[3])
 
 let however = "...not Starbucks, though."
 console.log(however)
